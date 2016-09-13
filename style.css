@@ -1,0 +1,90 @@
+@import 'https://fonts.googleapis.com/css?family=Domine:400,700|Passion+One:400,700|Yanone+Kaffeesatz:400,700';
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
+
+    font-family: "Domine", "Times New Roman", serif;
+}
+
+h1 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 70pt;
+    font-weight: bolder;
+    line-height: 65pt;
+    margin: 0 0 40px 0;
+}
+
+h2 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 40pt;
+    color: #89245f;
+}
+
+a {
+    color: #2121bb;
+}
+
+.intro {
+    background-color: #89245f;
+    color: #e4cddb;
+
+    padding: 40px 70px;
+}
+
+.intro h1 strong {
+    font-size: 85pt;
+}
+
+.intro strong {
+    color: #fff;
+}
+
+.intro p {
+    font-size: 16pt;
+    margin: 20px 0 0;
+}
+
+.pledges {
+    display: flex;
+    margin: 0 -5px;
+}
+
+.pledges button {
+    font-size: 16pt;
+    font-family: "Domine", "Times New Roman", serif;
+    color: #fff;
+    background-color: #89245f;
+
+    width: 20%;
+    margin: 0 5px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.2);
+
+    cursor: pointer;
+
+    flex-grow: 1;
+}
+
+.pledges iframe {
+    display: none;
+}
+
+.details p, .details li {
+    text-align: left;
+    color: #444;
+    line-height: 140%;
+    margin: 1em 0;
+}
+
+.details strong {
+    color: #000;
+}
