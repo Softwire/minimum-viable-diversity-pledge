@@ -142,6 +142,7 @@ a {
 }
 
 .details p, .details li {
+    font-size: 16pt;
     text-align: left;
     color: #444;
     line-height: 140%;
