@@ -21,10 +21,17 @@ h1 {
     margin: 0 0 40px 0;
 }
 
-h2 {
+h2, h3 {
     font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 40pt;
     color: #89245f;
+}
+
+h2 {
+    font-size: 40pt;
+}
+
+h3 {
+    font-size: 20pt;
 }
 
 a {
@@ -143,4 +150,33 @@ a {
 
 .details strong {
     color: #000;
+}
+
+footer {
+    width: 100%;
+    border-top: 5px solid #89245f;
+    color: #fff;
+    padding: 10px 0 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer h3 {
+    width: 100%;
+}
+
+footer a {
+    width: 30%;
+    margin: 0 5%;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer img.softwire {
+    margin-bottom: 10px;
 }
