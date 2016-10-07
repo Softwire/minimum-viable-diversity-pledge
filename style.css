@@ -21,7 +21,7 @@ h1 {
     margin: 0 0 40px 0;
 }
 
-h2, h3 {
+h2, h3, dt {
     font-family: "Yanone Kaffeesatz", sans-serif;
     color: #89245f;
 }
@@ -30,7 +30,7 @@ h2 {
     font-size: 40pt;
 }
 
-h3 {
+h3, dt {
     font-size: 20pt;
 }
 
@@ -141,12 +141,17 @@ a {
     padding-left: 25px;
 }
 
-.details p, .details li {
+.details p, .details li, .details dd {
     font-size: 16pt;
     text-align: left;
     color: #444;
     line-height: 140%;
     margin: 1em 0;
+}
+
+.details dt {
+    text-align: left;
+    margin-top: 40px;
 }
 
 .details strong {
