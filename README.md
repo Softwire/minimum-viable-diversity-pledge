@@ -1,1 +1,1 @@
-# no-all-male-events
+# The Minimum Viable Diversity Pledge
