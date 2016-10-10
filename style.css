@@ -137,6 +137,37 @@ a {
     }
 }
 
+ul.share-buttons {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0 30px;
+}
+
+ul.share-buttons li {
+  display: inline;
+  margin: 0 20px;
+}
+
+ul.share-buttons a i {
+    color: #000;
+    font-size: 30pt;
+}
+
+ul.share-buttons a:hover i {
+    color: #89245f;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
 .details ul {
     padding-left: 25px;
 }
