@@ -2,6 +2,7 @@
 
 html {
     overflow-x: hidden;
+    background-color: #fbf9fb;
 }
 
 body {
@@ -81,6 +82,8 @@ section.signup:before {
     width: 100vw;
     height: 100%;
     display: block;
+
+    background-color: #ffffff;
     border-top: 3px solid #89245f;
     border-bottom: 3px solid #89245f;
     box-shadow: 0 0 30px -5px #89245f;
