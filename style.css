@@ -21,17 +21,22 @@ h1 {
     margin: 0 0 40px 0;
 }
 
-h2, h3, dt {
+h2, h3, summary {
     font-family: "Yanone Kaffeesatz", sans-serif;
     color: #89245f;
 }
 
 h2 {
-    font-size: 40pt;
+    font-size: 50pt;
 }
 
-h3, dt {
+h3, summary {
     font-size: 26pt;
+}
+
+summary {
+    outline: none;
+    cursor: pointer;
 }
 
 a {
@@ -57,6 +62,10 @@ a {
 .intro p {
     font-size: 16pt;
     margin: 20px 0 0;
+}
+
+section.signup {
+    border-bottom: 5px solid #89245f;
 }
 
 .pledge-buttons {
@@ -140,7 +149,7 @@ a {
 ul.share-buttons {
   list-style: none;
   padding: 0;
-  margin: 40px 0 30px;
+  margin: 70px 0;
 }
 
 ul.share-buttons li {
@@ -149,12 +158,12 @@ ul.share-buttons li {
 }
 
 ul.share-buttons a i {
-    color: #000;
+    color: #89245f;
     font-size: 30pt;
 }
 
 ul.share-buttons a:hover i {
-    color: #89245f;
+    color: #000;
 }
 
 ul.share-buttons .sr-only {
@@ -168,11 +177,45 @@ ul.share-buttons .sr-only {
   overflow: hidden;
 }
 
+nav {
+    display: none; /* For browsers that don't support target. */
+}
+
+nav:not(:target) { /* :not(:target) is a feature test - display only if available */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin: 0 auto;
+    width: 33%;
+}
+
+nav h3 {
+    color: #89245f;
+    border-bottom: 3px solid #89245f;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+nav h3:hover {
+    color: #000;
+    border-color: transparent;
+}
+
+.details > section:not(:target) {
+    display: none;
+}
+
+.details > section:target {
+    display: block;
+}
+
 .details ul {
     padding-left: 25px;
 }
 
-.details p, .details li, .details dd {
+.details p, .details li, .details details {
     font-size: 16pt;
     text-align: left;
     color: #444;
@@ -193,7 +236,8 @@ footer {
     width: 100%;
     border-top: 5px solid #89245f;
     color: #fff;
-    padding: 10px 0 50px;
+    margin-top: 55px;
+    padding: 20px 0 50px;
 
     display: flex;
     align-items: center;
