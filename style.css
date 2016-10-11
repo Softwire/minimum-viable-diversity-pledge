@@ -28,6 +28,8 @@ h2, h3, summary {
 
 h2 {
     font-size: 50pt;
+    margin:  0;
+    padding: 70px 0;
 }
 
 h3, summary {
@@ -37,6 +39,7 @@ h3, summary {
 summary {
     outline: none;
     cursor: pointer;
+    padding: 0 0 26px;
 }
 
 a {
@@ -65,7 +68,22 @@ a {
 }
 
 section.signup {
-    border-bottom: 5px solid #89245f;
+    position: relative;
+}
+
+/* :before element that pops out of the signup to add full-width borders */
+section.signup:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: 100vw;
+    height: 100%;
+    display: block;
+    border-top: 3px solid #89245f;
+    border-bottom: 3px solid #89245f;
+    box-shadow: 0 0 30px -5px #89245f;
 }
 
 .pledge-buttons {
@@ -148,8 +166,7 @@ section.signup {
 
 ul.share-buttons {
   list-style: none;
-  padding: 0;
-  margin: 70px 0;
+  padding: 70px 0;
 }
 
 ul.share-buttons li {
@@ -220,7 +237,7 @@ nav h3:hover {
     text-align: left;
     color: #444;
     line-height: 140%;
-    margin: 1em 0;
+    margin: 0 0 1em;
 }
 
 .details dt {
