@@ -197,6 +197,13 @@ ul.share-buttons .sr-only {
   overflow: hidden;
 }
 
+ul.share-buttons .hashtag {
+    padding-top: 20px;
+    margin: 0;
+    font-size: 20pt;
+    font-weight: lighter;
+}
+
 nav {
     display: none; /* For browsers that don't support target. */
 }
