@@ -29,8 +29,7 @@ h2, h3, summary {
 
 h2 {
     font-size: 50pt;
-    margin:  0;
-    padding: 70px 0;
+    margin: 70px 0;
 }
 
 h3, summary {
@@ -40,7 +39,11 @@ h3, summary {
 summary {
     outline: none;
     cursor: pointer;
-    padding: 0 0 26px;
+    margin: 30px 0;
+}
+
+details > details {
+    padding-left: 36px;
 }
 
 a {
@@ -70,6 +73,8 @@ a {
 
 section.signup {
     position: relative;
+    display: inline-block;
+    width: 100%;
 }
 
 /* :before element that pops out of the signup to add full-width borders */
@@ -242,7 +247,7 @@ nav h3:hover {
     padding-left: 25px;
 }
 
-.details p, .details li, .details details {
+.details p, .details blockquote, .details li, .details details {
     font-size: 16pt;
     text-align: left;
     color: #444;
@@ -259,11 +264,20 @@ nav h3:hover {
     color: #000;
 }
 
+blockquote {
+    font-style: italic;
+}
+
+blockquote em {
+    font-style: normal;
+    opacity: 0.8;
+}
+
 footer {
     width: 100%;
     border-top: 3px solid #89245f;
     color: #fff;
-    margin-top: 55px;
+    margin-top: 36px;
     padding: 20px 0 50px;
 
     display: flex;
