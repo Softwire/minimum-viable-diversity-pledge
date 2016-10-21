@@ -25,6 +25,7 @@ body {
 }
 
 .pledge-forms input[type=radio]:checked + iframe {
+    position: fixed;
     visibility: visible;
 }
 
