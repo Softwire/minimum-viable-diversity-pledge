@@ -37,14 +37,16 @@ h3, summary {
     font-size: 1.6em;
 }
 
+details {
+    padding-left: 1.7em;
+}
+
 summary {
     outline: none;
     cursor: pointer;
     margin: 1.4em 0;
-}
 
-details > details {
-    padding-left: 1.7em;
+    margin-left: -1em;
 }
 
 a {
