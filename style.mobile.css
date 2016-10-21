@@ -45,3 +45,7 @@ body {
 section.signup:before {
     margin: 0;
 }
+
+.details {
+    padding: 0 1em;
+}
