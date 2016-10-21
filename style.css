@@ -153,6 +153,7 @@ section.signup:before {
     top: 5px;
     right: 5px;
     font-size: 2.5em;
+    line-height: 0.6em;
     cursor: pointer;
 }
 

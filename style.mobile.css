@@ -14,6 +14,17 @@ body {
     right: 0;
     bottom: 0;
     height: 100%;
+
+    display: block;
+    visibility: hidden;
+}
+
+.pledge-forms label.hide-form {
+    position: fixed;
+}
+
+.pledge-forms input[type=radio]:checked + iframe {
+    visibility: visible;
 }
 
 .pledge-buttons {
