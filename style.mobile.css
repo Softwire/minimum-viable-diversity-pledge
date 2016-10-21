@@ -21,6 +21,7 @@ body {
 
 .pledge-forms label.hide-form {
     position: fixed;
+    font-size: 5em;
 }
 
 .pledge-forms input[type=radio]:checked + iframe {
