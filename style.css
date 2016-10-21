@@ -12,14 +12,15 @@ body {
     width: 800px;
 
     font-family: "Domine", "Times New Roman", serif;
+    font-size: 132%;
 }
 
 h1 {
     font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 70pt;
+    font-size: 4.45em;
     font-weight: bolder;
-    line-height: 65pt;
-    margin: 0 0 40px 0;
+    line-height: 0.9em;
+    margin: 0 0 0.4em 0;
 }
 
 h2, h3, summary {
@@ -28,18 +29,18 @@ h2, h3, summary {
 }
 
 h2 {
-    font-size: 50pt;
-    margin: 70px 0;
+    font-size: 3.1em;
+    margin: 1.05em 0;
 }
 
 h3, summary {
-    font-size: 26pt;
+    font-size: 1.6em;
 }
 
 summary {
     outline: none;
     cursor: pointer;
-    margin: 30px 0;
+    margin: 1.4em 0;
 }
 
 details > details {
@@ -55,11 +56,11 @@ a {
     background-color: #89245f;
     color: #e4cddb;
 
-    padding: 40px 70px;
+    padding: 1.9em 3.3em;
 }
 
 .intro h1 strong {
-    font-size: 85pt;
+    font-size: 1.25em;
 }
 
 .intro strong {
@@ -67,8 +68,8 @@ a {
 }
 
 .intro p {
-    font-size: 16pt;
-    margin: 20px 0 0;
+    font-size: 1em;
+    margin: 1em 0 0;
 }
 
 section.signup {
@@ -100,14 +101,14 @@ section.signup:before {
 }
 
 .pledge-buttons label {
-    font-size: 16pt;
+    font-size: 1em;
     font-family: "Domine", "Times New Roman", serif;
     color: #fff;
     background-color: #89245f;
 
     width: 20%;
     margin: 0 5px;
-    padding: 10px 20px;
+    padding: 0.5em 0.3em;
     border: 2px solid transparent;
     border-radius: 3px;
     box-shadow: 0 3px 4px rgba(0,0,0,0.2);
@@ -116,6 +117,7 @@ section.signup:before {
     user-select: none;
 
     flex-grow: 1;
+    align-self: center;
 }
 
 .pledge-buttons label:hover {
@@ -149,7 +151,7 @@ section.signup:before {
     position: absolute;
     top: 5px;
     right: 5px;
-    font-size: 40pt;
+    font-size: 2.5em;
     cursor: pointer;
 }
 
@@ -157,24 +159,9 @@ section.signup:before {
     display: none;
 }
 
-@media(max-width: 820px) {
-    .pledge-forms {
-        position: static;
-    }
-
-    .pledge-forms iframe {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 100%;
-    }
-}
-
 ul.share-buttons {
   list-style: none;
-  padding: 70px 0;
+  padding: 3.3em 0;
 }
 
 ul.share-buttons li {
@@ -184,7 +171,7 @@ ul.share-buttons li {
 
 ul.share-buttons a i {
     color: #89245f;
-    font-size: 30pt;
+    font-size: 1.9em;
 }
 
 ul.share-buttons a:hover i {
@@ -203,9 +190,9 @@ ul.share-buttons .sr-only {
 }
 
 ul.share-buttons .hashtag {
-    padding-top: 20px;
+    padding-top: 1em;
     margin: 0;
-    font-size: 20pt;
+    font-size: 1.25em;
     font-weight: lighter;
 }
 
@@ -248,7 +235,7 @@ nav h3:hover {
 }
 
 .details p, .details blockquote, .details li, .details details {
-    font-size: 16pt;
+    font-size: 1em;
     text-align: left;
     color: #444;
     line-height: 140%;
@@ -300,5 +287,5 @@ footer img {
 }
 
 footer img.softwire {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }

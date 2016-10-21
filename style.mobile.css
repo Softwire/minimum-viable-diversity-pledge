@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    font-size: 3vw;
+}
+
+.pledge-forms {
+    position: static;
+}
+
+.pledge-forms iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.pledge-buttons {
+    padding: 2px;
+    flex-wrap: wrap;
+
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.pledge-buttons label {
+    width: 40%;
+    margin: 5px 5px;
+}
+
+section.signup:before {
+    margin: 0;
+}
