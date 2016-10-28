@@ -131,6 +131,7 @@ section.signup:before {
 
 .pledge-forms {
     position: relative;
+    margin-top: 10px;
 }
 
 .pledge-forms input[type=radio] {
