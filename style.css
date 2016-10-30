@@ -273,6 +273,7 @@ blockquote em {
 
 .badges > img {
     width: 400px;
+    max-width: 100%;
 }
 
 .badges .badge-links {
