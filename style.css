@@ -271,6 +271,14 @@ blockquote em {
     opacity: 0.8;
 }
 
+.badges > img {
+    width: 400px;
+}
+
+.badges .badge-links {
+    margin: 5px 5px 40px 0;
+}
+
 footer {
     width: 100%;
     border-top: 3px solid #89245f;
