@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 501 844"
+   id="svg6912"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="badges.svg">
+  <metadata
+     id="metadata6995">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="851"
+     id="namedview6993"
+     showgrid="false"
+     inkscape:zoom="0.55924171"
+     inkscape:cx="-179.16268"
+     inkscape:cy="334.04958"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6912" />
+  <defs
+     id="defs6914">
+    <pattern
+       id="pattern-5"
+       patternTransform="matrix(0.24257, 0.242791, -0.245804, 0.23901, 302.954865, 210.32962)"
+       xlink:href="#pattern-1" />
+    <pattern
+       id="pattern-1"
+       viewBox="0 0 100 100"
+       patternUnits="userSpaceOnUse"
+       preserveAspectRatio="none"
+       width="100"
+       height="100">
+      <path
+         d="M 0.037 0.02 L 33.37 0.02 L 33.37 100.02 L 0.037 100.02 Z"
+         style="fill: rgb(137, 36, 95);"
+         id="path6918" />
+      <path
+         d="M 33.333 0 L 66.666 0 L 66.666 100 L 33.333 100 Z"
+         style="fill: rgb(185, 96, 148);"
+         id="path6920" />
+      <path
+         d="M 66.65 0 L 99.99 0 L 99.99 100 L 66.65 100 Z"
+         style="fill: rgb(255, 207, 235);"
+         id="path6922" />
+    </pattern>
+    <pattern
+       id="pattern-4"
+       patternTransform="matrix(0.24257, 0.242791, -0.245804, 0.23901, 302.954865, 210.32962)"
+       xlink:href="#pattern-1" />
+    <pattern
+       id="pattern-11"
+       patternTransform="matrix(0.242584, 0.243178, -0.245744, 0.239388, 168.455078, 535.604187)"
+       xlink:href="#pattern-9" />
+    <pattern
+       id="pattern-9"
+       viewBox="0 0 100 100"
+       patternUnits="userSpaceOnUse"
+       preserveAspectRatio="none"
+       width="100"
+       height="100">
+      <path
+         d="M 66.65 0 L 99.983 0 L 99.983 100 L 66.65 100 Z"
+         style="fill: rgb(150, 54, 110);"
+         id="path6927" />
+      <path
+         d="M 33.333 0 L 66.666 0 L 66.666 100 L 33.333 100 Z"
+         style="fill: rgb(201, 117, 166);"
+         id="path6929" />
+      <path
+         d="M 0 0 L 33.34 0 L 33.34 100 L 0 100 Z"
+         style="fill: rgb(255, 207, 235);"
+         id="path6931" />
+    </pattern>
+    <pattern
+       id="pattern-12"
+       patternTransform="matrix(0.242584, 0.243178, -0.245744, 0.239388, 168.455078, 535.604187)"
+       xlink:href="#pattern-9" />
+  </defs>
+  <defs
+     id="defs6934">
+    <style
+       id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700);</style>
+  </defs>
+  <rect
+     x="3.381"
+     y="188.356"
+     width="199.74"
+     height="228.021"
+     style="fill:none"
+     id="rect6937" />
+  <rect
+     x="-0.352"
+     y="0.328"
+     width="501.118"
+     height="182.947"
+     style="fill:none"
+     id="rect6939" />
+  <g
+     transform="matrix(1, 0, 0, 1, -140.772461, -164.9245)"
+     id="g6941">
+    <path
+       d="M 155.948 279.885 L 156.129 189.73 L 178.277 250.358 L 199.816 189.974 L 199.765 279.909"
+       style="fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(137, 36, 95);"
+       id="path6943" />
+    <path
+       d="M 280.987 186.533 L 302.817 186.722 C 314.108 187.291 323.855 206.476 324.051 225.708 L 324.051 241.383 C 324.206 257.562 321.342 282.573 304.773 282.764 L 280.987 282.764 C 279.475 282.764 278.249 281.577 278.249 280.114 L 278.249 189.183 C 278.249 187.719 279.475 186.533 280.987 186.533 Z"
+       style="fill: url(#pattern-5);"
+       id="path6945" />
+    <path
+       d="M 236.308 280.947 C 237.322 284.296 243.916 284.338 244.942 280.916 L 268.245 192.215 C 269.459 186.655 267.149 186.671 262.447 186.654 L 218.714 186.657 C 214.639 186.671 211.427 186.59 212.916 192.055 L 236.308 280.947 Z"
+       style="fill: rgb(137, 36, 95);"
+       id="path6947" />
+  </g>
+  <text
+     x="359.152"
+     y="271.572"
+     style="fill: rgb(137, 36, 95); font-family: &quot;Yanone Kaffeesatz&quot;; font-size: 107px; font-weight: bold; white-space: pre;"
+     transform="matrix(1.291493, 0, 0, 1.255084, -248.379883, -224.103683)"
+     id="text6949">Pledge</text>
+  <text
+     x="10.291"
+     y="157.162"
+     style="font-family: &quot;Yanone Kaffeesatz&quot;; font-size: 43px; white-space: pre;"
+     id="text6951">MinimumViableDiversity.com</text>
+  <g
+     transform="matrix(1, 0, 0, 1, -135.671097, 17.218273)"
+     id="g6953">
+    <path
+       d="M 155.948 279.885 L 156.129 189.73 L 178.277 250.358 L 199.816 189.974 L 199.765 279.909"
+       style="fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(137, 36, 95);"
+       id="path6955" />
+    <path
+       d="M 280.987 186.533 L 302.817 186.722 C 314.108 187.291 323.855 206.476 324.051 225.708 L 324.051 241.383 C 324.206 257.562 321.342 282.573 304.773 282.764 L 280.987 282.764 C 279.475 282.764 278.249 281.577 278.249 280.114 L 278.249 189.183 C 278.249 187.719 279.475 186.533 280.987 186.533 Z"
+       style="fill: url(#pattern-4);"
+       id="path6957" />
+    <path
+       d="M 236.308 280.947 C 237.322 284.296 243.916 284.338 244.942 280.916 L 268.245 192.215 C 269.459 186.655 267.149 186.671 262.447 186.654 L 218.714 186.657 C 214.639 186.671 211.427 186.59 212.916 192.055 L 236.308 280.947 Z"
+       style="fill: rgb(137, 36, 95);"
+       id="path6959" />
+  </g>
+  <text
+     x="359.152"
+     y="271.572"
+     style="fill: rgb(137, 36, 95); font-family: &quot;Yanone Kaffeesatz&quot;; font-size: 107px; font-weight: bold; white-space: pre;"
+     transform="matrix(0.840616, 0, 0, 0.816916, -287.898712, 147.796814)"
+     id="text6961">Pledge</text>
+  <text
+     x="10.148"
+     y="398.221"
+     transform="matrix(1.031687, 0, 0, 1.031688, 5.787561, -6.943641)"
+     style="font-family: &quot;Yanone Kaffeesatz&quot;; font-size: 19.5px; white-space: pre;"
+     id="text6963">MinimumViableDiversity.com</text>
+  <rect
+     x="0.056"
+     y="419.285"
+     width="501.118"
+     height="182.947"
+     style="fill: rgb(137, 36, 95);"
+     id="rect6965" />
+  <g
+     transform="matrix(1, 0, 0, 1, -3.497738, -70.330109)"
+     id="g6967">
+    <path
+       d="M 21.439 605.273 L 21.62 515.118 L 43.768 575.746 L 65.307 515.362 L 65.256 605.297"
+       style="fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(255, 207, 235);"
+       id="path6969" />
+    <path
+       d="M 101.799 606.335 C 102.813 609.684 109.407 609.726 110.433 606.304 L 133.736 517.603 C 134.95 512.043 132.64 512.059 127.938 512.042 L 84.205 512.045 C 80.13 512.059 76.918 511.978 78.407 517.443 L 101.799 606.335 Z"
+       style="fill: rgb(255, 207, 235);"
+       id="path6971" />
+    <path
+       d="M 146.485 511.924 L 168.312 512.114 C 179.603 512.684 189.353 531.744 189.551 551.007 L 189.553 566.708 C 189.711 582.912 186.85 607.964 170.283 608.154 L 146.5 608.154 C 144.989 608.154 143.762 606.965 143.762 605.499 L 143.748 514.579 C 143.748 513.113 144.974 511.924 146.485 511.924 Z"
+       style="fill: url(#pattern-11);"
+       transform="matrix(1, 0.000172, -0.000172, 1, 0.096374, -0.02867)"
+       id="path6973" />
+  </g>
+  <text
+     x="359.152"
+     y="271.572"
+     transform="matrix(1.291493, 0, 0, 1.255084, -245.612808, 195.881485)"
+     style="fill: rgb(255, 207, 235); font-family: &quot;Yanone Kaffeesatz&quot;; font-size: 107px; font-weight: bold; white-space: pre;"
+     id="text6975">Pledge</text>
+  <rect
+     x="0.94"
+     y="606.651"
+     width="199.74"
+     height="237.209"
+     style="fill: rgb(137, 36, 95);"
+     id="rect6977" />
+  <g
+     transform="matrix(1, 0, 0, 1, -3.611547, 108.884521)"
+     id="g6979">
+    <path
+       d="M 21.439 605.273 L 21.62 515.118 L 43.768 575.746 L 65.307 515.362 L 65.256 605.297"
+       style="fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(255, 207, 235);"
+       id="path6981" />
+    <path
+       d="M 101.799 606.335 C 102.813 609.684 109.407 609.726 110.433 606.304 L 133.736 517.603 C 134.95 512.043 132.64 512.059 127.938 512.042 L 84.205 512.045 C 80.13 512.059 76.918 511.978 78.407 517.443 L 101.799 606.335 Z"
+       style="fill: rgb(255, 207, 235);"
+       id="path6983" />
+    <path
+       d="M 146.485 511.924 L 168.312 512.114 C 179.603 512.684 189.353 531.744 189.551 551.007 L 189.553 566.708 C 189.711 582.912 186.85 607.964 170.283 608.154 L 146.5 608.154 C 144.989 608.154 143.762 606.965 143.762 605.499 L 143.748 514.579 C 143.748 513.113 144.974 511.924 146.485 511.924 Z"
+       style="fill: url(#pattern-12);"
+       transform="matrix(1, 0.000172, -0.000172, 1, 0.096374, -0.02867)"
+       id="path6985" />
+  </g>
+  <text
+     x="359.152"
+     y="271.572"
+     transform="matrix(0.840616, 0, 0, 0.816916, -290.1922, 569.132813)"
+     style="fill: rgb(255, 207, 235); font-family: &quot;Yanone Kaffeesatz&quot;; font-size: 107px; font-weight: bold; white-space: pre;"
+     id="text6987">Pledge</text>
+  <text
+     x="11.842"
+     y="579.166"
+     style="fill: rgb(255, 255, 255); font-family: &quot;Yanone Kaffeesatz&quot;; font-size: 43px; white-space: pre;"
+     id="text6989">MinimumViableDiversity.com</text>
+  <text
+     x="10.148"
+     y="398.221"
+     transform="matrix(1.031687, 0, 0, 1.031688, 3.020587, 417.318146)"
+     style="fill: rgb(255, 255, 255); font-family: &quot;Yanone Kaffeesatz&quot;; font-size: 19.5px; white-space: pre;"
+     id="text6991">MinimumViableDiversity.com</text>
+</svg>
