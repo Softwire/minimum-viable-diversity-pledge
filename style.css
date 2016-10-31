@@ -262,11 +262,15 @@ nav h3:hover {
     color: #000;
 }
 
-blockquote {
+.details blockquote {
     font-style: italic;
+
+    border-left: 3px solid #ccc;
+    padding-left: 10px;
+    margin-left: -13px;
 }
 
-blockquote em {
+.details blockquote em {
     font-style: normal;
     opacity: 0.8;
 }
