@@ -23,7 +23,7 @@ h1 {
     margin: 0 0 0.4em 0;
 }
 
-h2, h3, summary {
+h2, h3, h4, summary {
     font-family: "Yanone Kaffeesatz", sans-serif;
     color: #89245f;
 }
@@ -35,6 +35,11 @@ h2 {
 
 h3, summary {
     font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.3em;
+    margin: 0;
 }
 
 details {
@@ -288,8 +293,7 @@ footer {
     width: 100%;
     border-top: 3px solid #89245f;
     color: #fff;
-    margin-top: 1.7em;
-    padding: 20px 0 50px;
+    padding: 40px 0;
 
     display: flex;
     align-items: center;
@@ -297,12 +301,12 @@ footer {
     flex-wrap: wrap;
 }
 
-footer h3 {
+footer h4 {
     width: 100%;
 }
 
 footer a {
-    width: 30%;
+    width: 20%;
     margin: 0 5%;
 }
 
@@ -311,5 +315,5 @@ footer img {
 }
 
 footer img.softwire {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
