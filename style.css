@@ -33,7 +33,12 @@ h2 {
     margin: 1.05em 0;
 }
 
-h3, summary {
+h3 {
+    font-size: 1.75em;
+    margin: 0;
+}
+
+summary {
     font-size: 1.6em;
 }
 
@@ -207,13 +212,13 @@ ul.share-buttons .sr-only {
 
 ul.share-buttons .hashtag {
     padding-top: 1em;
-    margin: 0;
-    font-size: 1.25em;
+    font-size: 1.3em;
     font-weight: lighter;
 }
 
 nav {
     display: none; /* For browsers that don't support target. */
+    padding: 3em 0;
 }
 
 nav:not(:target) { /* :not(:target) is a feature test - display only if available */
@@ -230,7 +235,7 @@ nav h3 {
     color: #89245f;
     border-bottom: 3px solid #89245f;
     display: inline-block;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 nav h3:hover {
@@ -244,6 +249,10 @@ nav h3:hover {
 
 .details > section:target {
     display: block;
+}
+
+.details h2 {
+    margin-top: 0;
 }
 
 .details ul {
