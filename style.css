@@ -48,6 +48,7 @@ h4 {
 }
 
 details {
+    display: block;
     padding-left: 1.7em;
 }
 
