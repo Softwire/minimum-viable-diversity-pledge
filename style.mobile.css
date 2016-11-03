@@ -7,7 +7,7 @@ body {
     position: static;
 }
 
-.pledge-forms iframe {
+.pledge-forms [type=radio]:checked + iframe  {
     position: fixed;
     top: 0;
     left: 0;
