@@ -615,22 +615,28 @@
         // Here we disable the jumping around behaviour, so only the URL #hash changes.
         // This is purely optimistic: if we can't do this, we get normal behaviour, and that'll do.
 
-        document.addEventListener("DOMContentLoaded", function () {
-            var hashLinks = document.querySelectorAll("nav a[href^='#']");
-            // Can't use forEach normally because hashLinks is a NodeList, not an array, eugh.
-            [].forEach.call(hashLinks, function (link) {
-                link.addEventListener("click", function (event) {
-                    event.preventDefault(); // Don't update hash normally or scroll the page
+        var isIE = /Trident\//.test(navigator.userAgent);
 
-                    // Manually add the URL hash (without scrolling)
-                    history.pushState({}, "", link.href);
+        // IE (11 especially) supports all the APIs for this, but has different behaviour.
+        // Sadly, that means we have to check it - works fine (but with jumping) without this.
+        if (!isIE) {
+            document.addEventListener("DOMContentLoaded", function () {
+                var hashLinks = document.querySelectorAll("nav a[href^='#']");
+                // Can't use forEach normally because hashLinks is a NodeList, not an array, eugh.
+                [].forEach.call(hashLinks, function (link) {
+                    link.addEventListener("click", function (event) {
+                        event.preventDefault(); // Don't update hash normally or scroll the page
 
-                    // Do it again, and go back, to fix https://github.com/whatwg/html/issues/639
-                    history.pushState({}, "", link.href);
-                    history.back();
+                        // Manually add the URL hash (without scrolling)
+                        history.pushState({}, "", link.href);
+
+                        // Do it again, and go back, to fix https://github.com/whatwg/html/issues/639
+                        history.pushState({}, "", link.href);
+                        history.back();
+                    });
                 });
             });
-        });
+        }
 
         function selectAllText(node) {
            if (document.selection) {
