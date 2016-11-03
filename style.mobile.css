@@ -31,6 +31,7 @@ body {
 
 .pledge-buttons {
     padding: 2px;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 
     width: 100%;
